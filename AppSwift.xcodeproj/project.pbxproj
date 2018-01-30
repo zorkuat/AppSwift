@@ -12,6 +12,10 @@
 		0913BFBC2020C1D0009FF1C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0913BFBA2020C1D0009FF1C8 /* Main.storyboard */; };
 		0913BFBE2020C1D0009FF1C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0913BFBD2020C1D0009FF1C8 /* Assets.xcassets */; };
 		0913BFC12020C1D0009FF1C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0913BFBF2020C1D0009FF1C8 /* LaunchScreen.storyboard */; };
+		0913BFC92020C36B009FF1C8 /* RecetasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0913BFC82020C36B009FF1C8 /* RecetasTableViewController.swift */; };
+		0913BFCB2020C451009FF1C8 /* Receta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0913BFCA2020C451009FF1C8 /* Receta.swift */; };
+		0913BFCD2020C72D009FF1C8 /* BaseDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0913BFCC2020C72D009FF1C8 /* BaseDatos.swift */; };
+		0913BFCF2020CEC5009FF1C8 /* DetalleRecetaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0913BFCE2020CEC5009FF1C8 /* DetalleRecetaTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		0913BFBD2020C1D0009FF1C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0913BFC02020C1D0009FF1C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0913BFC22020C1D0009FF1C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0913BFC82020C36B009FF1C8 /* RecetasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetasTableViewController.swift; sourceTree = "<group>"; };
+		0913BFCA2020C451009FF1C8 /* Receta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receta.swift; sourceTree = "<group>"; };
+		0913BFCC2020C72D009FF1C8 /* BaseDatos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDatos.swift; sourceTree = "<group>"; };
+		0913BFCE2020CEC5009FF1C8 /* DetalleRecetaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleRecetaTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				0913BFBD2020C1D0009FF1C8 /* Assets.xcassets */,
 				0913BFBF2020C1D0009FF1C8 /* LaunchScreen.storyboard */,
 				0913BFC22020C1D0009FF1C8 /* Info.plist */,
+				0913BFC82020C36B009FF1C8 /* RecetasTableViewController.swift */,
+				0913BFCA2020C451009FF1C8 /* Receta.swift */,
+				0913BFCC2020C72D009FF1C8 /* BaseDatos.swift */,
+				0913BFCE2020CEC5009FF1C8 /* DetalleRecetaTableViewController.swift */,
 			);
 			path = AppSwift;
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0913BFB92020C1D0009FF1C8 /* ViewController.swift in Sources */,
+				0913BFCD2020C72D009FF1C8 /* BaseDatos.swift in Sources */,
 				0913BFB72020C1D0009FF1C8 /* AppDelegate.swift in Sources */,
+				0913BFCF2020CEC5009FF1C8 /* DetalleRecetaTableViewController.swift in Sources */,
+				0913BFC92020C36B009FF1C8 /* RecetasTableViewController.swift in Sources */,
+				0913BFCB2020C451009FF1C8 /* Receta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
